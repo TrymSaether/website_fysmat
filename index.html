@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trym's Nettside</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Oppslagsverk og begynnerkurs i Matematikk 4k" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="icon" href="/favicon.png"/>
+  </head>
+  <body>
+    <div id="mySidebar" class="sidebar">
+      <a href="/pages/tfy4215.html">TFY4215</a>
+      <a href="/pages/tfy4165.html">TFY4165</a>
+      <a href="/pages/tma4120.html">TMA4120</a>
+    </div>
+
+    <div id="main" class="container-fluid">
+      <header class="header-nabla">
+        <h1>
+          <a class="a-logo" href="/index.html"></a>&nabla; FysMat H2023
+        </h1>
+      </header>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <button class="openbtn" onclick="opencloseNav()">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search" />
+            <button class="btn btn-outline-primary" type="submit">
+              <i class="fa-solid fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">TFY4125 - Introduction to quantum mechanics</h5>
+                <p class="card-text">
+                  Quantum mechanics is the study of the behavior of matter and energy 
+                  at the molecular, atomic, nuclear, and even smaller microscopic levels. 
+                  In the early 20th century, scientists discovered that the laws governing macroscopic objects do not function the same in such small realms.
+    
+                </p>
+                <a href="/pages/tfy4215.html" class="btn btn-primary">Gå til emne</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">TFY4165 - Thermodynamics</h5>
+                <p class="card-text">
+                  Thermodynamics is the branch of physics that deals with the relationships 
+                  between heat and other forms of energy. In particular, it describes how 
+                  thermal energy is converted to and from other forms of energy and how it 
+                  affects matter.
+                </p>
+                <a href="/pages/tfy4165.html" class="btn btn-primary">Gå til emne</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">TMA4120 - Calculus 4K</h5>
+                <p class="card-text">
+                  This course is an introduction to the theory of functions of a complex variable. 
+                  The course is intended for students in mathematics, physics, chemistry, 
+                  informatics and engineering.
+                </p>
+                <a href="/pages/tma4120.html" class="btn btn-primary">Gå til emne</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="about">
+        <h2>About</h2>
+        <p>
+          This is a website for the courses TFY4215, TFY4165 and TMA4120. 
+          The website is made by Trym Sæther, a student at NTNU. 
+          The website is made to be a reference for the courses, and to help 
+          students with the courses. The website is made with HTML, CSS and 
+          JavaScript. The website is made with Bootstrap, and the sidebar is 
+          made with JavaScript. The website is hosted on GitHub Pages.
+        </p>
+      </div>
+      <footer class="footer" style="padding-left: 20px;">
+        <small>Made with <i class="fa-solid fa-heart"></i> <br> by Trym
+          Sæther, NTNU <br>
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          </small>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+  </body> 
+</html>

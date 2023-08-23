@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Trym's Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Oppslagsverk og begynnerkurs i Matematikk 4k" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="icon" href="favicon.png" />
+    <meta name="theme-color" content />
+</head>
+
+<body>
+    <div id="mySidebar" class="sidebar sidebar-4k">
+        <a href="/pages/tfy4215.html">TFY4215</a>
+        <a href="/pages/tfy4165.html">TFY4165</a>
+        <a href="/pages/tma4120.html">TMA4120</a>
+    </div>
+
+    <div id="main" class="container-fluid">
+        <header class="header-4k">
+            <h1>
+                <a class="a-logo" href="/index.html"></a>&nabla; FysMat H2023 - Calculus 4K
+            </h1>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button class="openbtn" onclick="opencloseNav()">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#laplace_tf">Laplace transformations</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Excersises
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Excersise 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Tips og triks</a></li>
+                                <li><a class="dropdown-item" href="#">Kompendium</a></li>
+                                <li><a class="dropdown-item" href="#">Programmering</a></li>
+                                <li><a class="dropdown-item" href="#">Nyttige lenker</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Søk" aria-label="Search" />
+                    <button class="btn btn-outline-primary" type="submit">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <footer class="footer" style="padding: 20px;">
+            <small>Made with <i class="fa-solid fa-heart"></i> by Trym
+                Sæther
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+            </small>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
