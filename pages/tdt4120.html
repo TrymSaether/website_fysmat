@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <title>Trym's Website</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Oppslagsverk og begynnerkurs i Matematikk 4k" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
         crossorigin="anonymous" />
@@ -16,16 +15,14 @@
 </head>
 
 <body>
-    <div id="mySidebar" class="sidebar sidebar-thermo">
-        <a href="/pages/tfy4215.html">TFY4215</a>
-        <a href="/pages/tfy4165.html">TFY4165</a>
+    <div id="mySidebar" class="sidebar sidebar-algdat">
         <a href="/pages/tma4120.html">TMA4120</a>
     </div>
 
     <div id="main" class="container-fluid">
-        <header class="header-thermo">
+        <header class="header-algdat">
             <h1>
-                <a class="a-logo" href="/index.html"></a>&nabla; FysMat H2023 - Thermodynamics
+                <a class="a-logo" href="/index.html"></a>&nabla; Algorithms and Data Structures
             </h1>
         </header>
 
@@ -41,22 +38,8 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Topics
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">1. </a></li>
-                            </ul>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Excersises
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Excersise 1</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#forelesninger">Forelesninger</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -64,10 +47,10 @@
                                 Resources
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Tips og triks</a></li>
-                                <li><a class="dropdown-item" href="#">Kompendium</a></li>
-                                <li><a class="dropdown-item" href="#">Programmering</a></li>
-                                <li><a class="dropdown-item" href="#">Nyttige lenker</a></li>
+                                <li><a class="dropdown-item" href="#">Tips and tricks</a></li>
+                                <li><a class="dropdown-item" href="#">Compendium</a></li>
+                                <li><a class="dropdown-item" href="#">Programming</a></li>
+                                <li><a class="dropdown-item" href="#">Useful resources and links</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -83,6 +66,25 @@
                 </form>
             </div>
         </nav>
+        <div id="forelesninger" class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1>Forelesninger</h1>
+                </div>
+            </div>
+            <div id="forelesning_1" class="row">
+                <div class="col">
+                    <h2>Forelesning 1: Problemer og algoritmer</h2>
+                    <p> En god forklaring på hva en <strong>Algoritme</strong> er,
+                        <div class="card col-4">
+                        Informally, an algorithm is any well-defined computational procedure that takes some value, 
+                        or set of values, as input and produces some value, or set of values, 
+                        as output in a ûnite amount of time. An algorithm is thus a sequence of 
+                        computational steps that transform the input into the output (Introduction to Algorithms, 2022).
+                        </div>
+                        
+                    </p>
+                </div>
         <footer class="footer" style="padding: 20px;">
             <small>Made with <i class="fa-solid fa-heart"></i> by Trym
                 Sæther
